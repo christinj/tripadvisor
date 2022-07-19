@@ -2913,6 +2913,124 @@
 	    margin-bottom: 10px;
 	    border-bottom: solid #c7bcbc66 1px;
 	}
+	/*Section Top scroll header*/
+	.top_section_boxi {
+	    position: fixed;
+	    top: 0;
+	    color: white;
+	    width: 100%;
+	    height: auto;
+	    background: #fff;
+	    z-index: 6;
+	    box-shadow: 0 2px 3px 0 rgba(0,0,0,.15);
+	}
+	.hide_nav_tist {
+	    opacity:0;
+	    display: none;
+	   
+	}
+	.show_nav_tist {
+	    opacity:3;
+	    display: block;
+	  
+	}
+	.mob_aui_ofi_dci{
+		display: none;
+	}
+	.mainDisp_herx{
+	    display: flex;
+	    flex-direction: column;
+	}
+	.two_boc_a_lin{
+	    gap: 20px;
+	    padding-top: 10px;
+	    padding-bottom: 10px;
+	}
+	.dd_two_box_abx_a a{
+	    font-weight: 600;
+	}
+	.djfndjn_dhfjd{
+	    justify-content: space-between;
+	}
+	.dfdfd_bhd_hjdb{
+	    padding-top: 14px;
+	    padding-bottom: 5px;
+	    border-bottom: solid #ddd8d8 1px;
+	}
+	.ff__tag_under{
+	    text-decoration: underline;
+	}
+	.sdssd_gap_ss{
+	    gap:11px;
+	}
+	.btn_nft_jioj{
+	    background-color:#FDC634;
+	    color: #000;
+	    border-radius: 20px;
+	    padding: 10px;
+	}
+	/*Bottom serivice nav*/
+	.fgfgfgf_mob_desk_hvg{
+		display: block;
+		background-color: #fff;
+		padding-top: 25px;
+		padding-bottom: 25px;
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+		z-index: 5;
+		box-shadow: -4px 4px 20px 0px rgb(0 0 0 / 20%);
+	}
+	
+	.bottom_gv_hgv_gv{
+	    display: flex;
+	    justify-content: space-between;
+	    align-items: center;
+	}
+	.modal {
+	    display: none; 
+	    position: fixed; 
+	    z-index: 6;
+	    left: 0;
+	    top: 0;
+	    width: 100%; 
+	    height: 100%; 
+	    overflow: auto; 
+	    background-color: rgb(0,0,0); 
+	    background-color: rgba(0,0,0,0.4);
+	    padding-top: 0px;
+	    }
+	.modal-content {
+	    background-color: #fefefe;
+	    margin: auto;
+	    padding: 20px;
+	    border: 1px solid #888;
+	    height: 100%;
+	    border-radius: 0px;
+	    width: auto;
+	    }
+	.close {
+	    color: #aaaaaa;
+	    float: right;
+	    font-size: 28px;
+	    font-weight: bold;
+	    }
+
+	.close:hover,
+	.close:focus {
+	    color: #000;
+	    text-decoration: none;
+	    cursor: pointer;
+	    }
+	.modal_head_box_cls{
+	    position: fixed;
+	    background-color: #fff;
+	    width: 90%;
+	    top:0;
+	}
+	.djnjd_bottom_check{
+	    margin-top: 30px;
+	}
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -3880,5 +3998,123 @@
 	    margin-top: 20px;
 	    margin-bottom: 10px;
 	    border-bottom: solid #c7bcbc66 1px;
+	}
+	/*Section Top scroll header*/
+	.top_section_boxi {
+	    position: fixed;
+	    top: 0;
+	    color: white;
+	    width: 100%;
+	    height: auto;
+	    background: #fff;
+	    z-index: 6;
+	    box-shadow: 0 2px 3px 0 rgba(0,0,0,.15);
+	}
+	.hide_nav_tist {
+	    opacity:0;
+	    display: none;
+	   
+	}
+	.show_nav_tist {
+	    opacity:3;
+	    display: block;
+	  
+	}
+	.mob_aui_ofi_dci{
+		display: none;
+	}
+	.mainDisp_herx{
+	    display: flex;
+	    flex-direction: column;
+	}
+	.two_boc_a_lin{
+	    gap: 20px;
+	    padding-top: 10px;
+	    padding-bottom: 10px;
+	}
+	.dd_two_box_abx_a a{
+	    font-weight: 600;
+	}
+	.djfndjn_dhfjd{
+	    justify-content: space-between;
+	}
+	.dfdfd_bhd_hjdb{
+	    padding-top: 14px;
+	    padding-bottom: 5px;
+	    border-bottom: solid #ddd8d8 1px;
+	}
+	.ff__tag_under{
+	    text-decoration: underline;
+	}
+	.sdssd_gap_ss{
+	    gap:11px;
+	}
+	.btn_nft_jioj{
+	    background-color:#FDC634;
+	    color: #000;
+	    border-radius: 20px;
+	    padding: 10px;
+	}
+	/*Bottom serivice nav*/
+	.fgfgfgf_mob_desk_hvg{
+		display: block;
+		background-color: #fff;
+		padding-top: 25px;
+		padding-bottom: 25px;
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+		z-index: 5;
+		box-shadow: -4px 4px 20px 0px rgb(0 0 0 / 20%);
+	}
+	
+	.bottom_gv_hgv_gv{
+	    display: flex;
+	    justify-content: space-between;
+	    align-items: center;
+	}
+	.modal {
+	    display: none; 
+	    position: fixed; 
+	    z-index: 6;
+	    left: 0;
+	    top: 0;
+	    width: 100%; 
+	    height: 100%; 
+	    overflow: auto; 
+	    background-color: rgb(0,0,0); 
+	    background-color: rgba(0,0,0,0.4);
+	    padding-top: 0px;
+	    }
+	.modal-content {
+	    background-color: #fefefe;
+	    margin: auto;
+	    padding: 20px;
+	    border: 1px solid #888;
+	    height: 100%;
+	    border-radius: 0px;
+	    width: auto;
+	    }
+	.close {
+	    color: #aaaaaa;
+	    float: right;
+	    font-size: 28px;
+	    font-weight: bold;
+	    }
+
+	.close:hover,
+	.close:focus {
+	    color: #000;
+	    text-decoration: none;
+	    cursor: pointer;
+	    }
+	.modal_head_box_cls{
+	    position: fixed;
+	    background-color: #fff;
+	    width: 90%;
+	    top:0;
+	}
+	.djnjd_bottom_check{
+	    margin-top: 30px;
 	}
 }
